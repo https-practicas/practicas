@@ -1,0 +1,9 @@
+c:\users\jagn\documents\visual studio 2012\Projects\wfm\wfm\bin\Debug\wfm.exe.config
+c:\users\jagn\documents\visual studio 2012\Projects\wfm\wfm\bin\Debug\wfm.exe
+c:\users\jagn\documents\visual studio 2012\Projects\wfm\wfm\bin\Debug\wfm.pdb
+c:\users\jagn\documents\visual studio 2012\Projects\wfm\wfm\obj\Debug\WfmExamenFinal.csprojResolveAssemblyReference.cache
+c:\users\jagn\documents\visual studio 2012\Projects\wfm\wfm\obj\Debug\wfm.Form1.resources
+c:\users\jagn\documents\visual studio 2012\Projects\wfm\wfm\obj\Debug\wfm.Properties.Resources.resources
+c:\users\jagn\documents\visual studio 2012\Projects\wfm\wfm\obj\Debug\WfmExamenFinal.csproj.GenerateResource.Cache
+c:\users\jagn\documents\visual studio 2012\Projects\wfm\wfm\obj\Debug\wfm.exe
+c:\users\jagn\documents\visual studio 2012\Projects\wfm\wfm\obj\Debug\wfm.pdb

@@ -1,0 +1,17 @@
+c:\users\estudiantes\documents\visual studio 2013\Projects\webservicetrabajo\webservicetrabajo\bin\webservicetrabajo.dll.config
+c:\users\estudiantes\documents\visual studio 2013\Projects\webservicetrabajo\webservicetrabajo\bin\webservicetrabajo.dll
+c:\users\estudiantes\documents\visual studio 2013\Projects\webservicetrabajo\webservicetrabajo\bin\webservicetrabajo.pdb
+c:\users\estudiantes\documents\visual studio 2013\Projects\webservicetrabajo\webservicetrabajo\obj\Debug\webservicetrabajo.csprojResolveAssemblyReference.cache
+c:\users\estudiantes\documents\visual studio 2013\Projects\webservicetrabajo\webservicetrabajo\obj\Debug\webservicetrabajo.dll
+c:\users\estudiantes\documents\visual studio 2013\Projects\webservicetrabajo\webservicetrabajo\obj\Debug\webservicetrabajo.pdb
+C:\Users\estudiantes\Documents\Visual Studio 2012\Projects\webservicetrabajo\webservicetrabajo\bin\webservicetrabajo.dll.config
+C:\Users\estudiantes\Documents\Visual Studio 2012\Projects\webservicetrabajo\webservicetrabajo\bin\webservicetrabajo.dll
+C:\Users\estudiantes\Documents\Visual Studio 2012\Projects\webservicetrabajo\webservicetrabajo\bin\webservicetrabajo.pdb
+C:\Users\estudiantes\Documents\Visual Studio 2012\Projects\webservicetrabajo\webservicetrabajo\obj\Debug\webservicetrabajo.csprojResolveAssemblyReference.cache
+C:\Users\estudiantes\Documents\Visual Studio 2012\Projects\webservicetrabajo\webservicetrabajo\obj\Debug\webservicetrabajo.dll
+C:\Users\estudiantes\Documents\Visual Studio 2012\Projects\webservicetrabajo\webservicetrabajo\obj\Debug\webservicetrabajo.pdb
+C:\Users\JAGN\Documents\Visual Studio 2012\Projects\PROYECTO BUENO\Projects\webservicetrabajo\webservicetrabajo\bin\webservicetrabajo.dll
+C:\Users\JAGN\Documents\Visual Studio 2012\Projects\PROYECTO BUENO\Projects\webservicetrabajo\webservicetrabajo\bin\webservicetrabajo.pdb
+C:\Users\JAGN\Documents\Visual Studio 2012\Projects\PROYECTO BUENO\Projects\webservicetrabajo\webservicetrabajo\obj\Debug\webservicetrabajo.csprojResolveAssemblyReference.cache
+C:\Users\JAGN\Documents\Visual Studio 2012\Projects\PROYECTO BUENO\Projects\webservicetrabajo\webservicetrabajo\obj\Debug\webservicetrabajo.dll
+C:\Users\JAGN\Documents\Visual Studio 2012\Projects\PROYECTO BUENO\Projects\webservicetrabajo\webservicetrabajo\obj\Debug\webservicetrabajo.pdb

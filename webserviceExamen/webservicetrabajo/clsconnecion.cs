@@ -9,107 +9,172 @@ namespace webservicetrabajo
     public class clsconnecion
     {
 
-        String coneccionstring = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\Users\\JAGN\\Documents\\B.mdb";
+
+
+            String coneccionstring = " Provider=SQLNCLI11;Data Source=DESKTOP-N54DNTA;Integrated Security=SSPI;Initial Catalog=ExamenFinal";
             OleDbConnection objConeccion;
             OleDbDataAdapter objAdaptador;
 
 
 
-        string sintax_sql;
-        string str_trabajo;
-        int int_idtrabajo;
-        string str_usuario;
-        string str_tipo;
-        int int_idusuario;
-        string str_fecha;
+       //AQUI COLOCAMOS TODOS LOS CAMPOS DE NUESTRA TABLA USUARIOS 
+        int IDUSUARIO ;
+        string CEDULA;
+        string NOMBRE;
+        string APELLIDO;
+        string DIRECCION;
+  
+        //AQUI HACEMOS UNA VARIABLE QUE ES LA QUE SE ENCARGARA DE HACER LAS CONEXIONES A LA BD
+        string sintax_sql_buscar;
+
+        //AQUI CREAMOS LAS VARIABLES DE NUESTRA TABLA MATERIAS
+        int IDMATERIAS ;
+        string MATERIA;
+      
+        //AQUI LAS VARIABLES DE NUESTRA TABLA NOTAS
+        int IDNOTAS;
+        float NOTA;
+
+
         public int idusuario
         {
             get
             {
-                return int_idusuario;
+                return IDUSUARIO;
             }
             set
             {
-                int_idusuario = value;
+                IDUSUARIO = value;
             }
         }
-        public string usuario
+        public string Cedula
         {
             get
             {
-                return str_usuario;
+                return CEDULA;
             }
             set
             {
-                str_usuario = value;
+                CEDULA = value;
             }
         }
-        public int idtrabajo
+        public string Nombre
         {
             get
             {
-                return int_idtrabajo;
+                return NOMBRE;
             }
             set
             {
-                int_idtrabajo = value;
+                NOMBRE = value;
             }
         }
-        public string trabajo
+        public string Apellido
         {
             get
             {
-                return str_trabajo;
+                return APELLIDO;
             }
             set
             {
-                str_trabajo = value;
+                APELLIDO = value;
             }
         }
-        public string fecha
+        public string Direccion
         {
             get
             {
-                return str_fecha;
+                return DIRECCION;
             }
             set
             {
-                str_fecha = value;
+                DIRECCION = value;
             }
         }
 
 
 
-        public string tipo
+        public int IdMaterias
         {
             get
             {
-                return str_tipo;
+                return IDMATERIAS;
             }
             set
             {
-                str_tipo = value;
+                IDMATERIAS = value;
             }
         }
+        public int IdMaterias
+        {
+            get
+            {
+                return IDMATERIAS;
+            }
+            set
+            {
+                IDMATERIAS = value;
+            }
+        }
+
+        public string Materias
+        {
+            get
+            {
+                return MATERIA;
+            }
+            set
+            {
+                MATERIA = value;
+            }
+        }
+
+
+        public int IdNotas
+        {
+            get
+            {
+                return IDNOTAS;
+            }
+            set
+            {
+                IDNOTAS = value;
+            }
+        }
+
+        public float Notas
+        {
+            get
+            {
+                return NOTA;
+            }
+            set
+            {
+                NOTA = value;
+            }
+        }
+
 
 
     public string fnconsulta(int opcion, string valor)
         {
-            string resp = "";
+        string resp = "";
         switch(opcion)
         {
             case 1:
-                sintax_sql= "select * from alumno";
+                sintax_sql_buscar = "select CEDULA, NOMBRE, APELLIDO, DIRECCION from Usuario";
                 break;
             case 2:
-                sintax_sql = "select * from trabajo";
+                sintax_sql_buscar = "select MATERIA  from Materias ";
                 break;
             case 3:
+                sintax_sql_buscar = "select NOTA from NOTAS  ";
+                break;
             case 4:
                 break;
 
         }
-        resp = sintax_sql;
+        resp = sintax_sql_buscar;
         return resp;
         }
 
@@ -121,7 +186,7 @@ namespace webservicetrabajo
         objConeccion = new OleDbConnection(coneccionstring);
         objConeccion.Open();
         fnconsulta(buscar, "");
-        objAdaptador = new OleDbDataAdapter(sintax_sql, objConeccion);
+        objAdaptador = new OleDbDataAdapter(sintax_sql_buscar, objConeccion);
         objAdaptador.Fill(dt);
         return dt;
 
